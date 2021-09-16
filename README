@@ -1,0 +1,9 @@
+MATLAB code which returns stress and strains in each lamina of the composite material, First ply failure load and the last ply failure load for a given composite of known laminate stacking sequence, geometrical and hygro-thermo-mechanical properties of each lamina and the applied loads.
+
+Input: Laminate Stacking Sequence (in terms of angle)
+       Geometrical and Hygro-thermo-mechanical properties of each Lamina
+       Applied Loads (Nx, Ny, Nxy, Mx, My, Mxy)
+
+Output: Stresses and strains in each lamina
+        First ply failure load
+        Last ply failure load, 
